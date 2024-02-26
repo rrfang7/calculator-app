@@ -15,7 +15,7 @@ function CalcProvider( { children }) {
     }
 
   return (
-    <CalcContext.Provider>
+    <CalcContext.Provider value={providerValue}>
       {children}
     </CalcContext.Provider>    
 
