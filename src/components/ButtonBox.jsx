@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ButtonBox() {
+function ButtonBox({ children }) {
   return (
-    <div>ButtonBox</div>
+    <div className='buttonBox'>{children}</div>
   )
 }
 
